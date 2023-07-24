@@ -1,0 +1,220 @@
+.title{
+	display: block;
+	float: right;
+	font-family: sans-serif;
+}
+
+.title a{
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.row .student-form-area h4{
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	background-color: #5F9DF7;
+	font-family: sans-serif;
+	color: white;
+	padding: 5px;
+}
+
+.student-from-area h4{
+	font-family: sans-serif;
+	color: white;
+}
+ .row .student-form-area .left-form h4{
+ 	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+ 	background-color: #FF7000;
+ 	font-family: sans-serif;
+ 	border-radius: initial;
+ }
+ .row .student-form-area .right-form h4{
+ 	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+ 	background-color: #FF7000;
+ 	font-family: sans-serif;
+ 		border-radius: initial;
+ }
+  .row .student-form-area .end-form h4{
+ 	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+ 	background-color: #FF7000;
+ 	font-family: sans-serif;
+ 		border-radius: initial;
+ }
+.student-form-area .left-form{
+	height: 675px;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	padding-bottom: 10px;
+	
+}
+.student-form-area .right-form{
+	height: 675px;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	padding-bottom: 10px;
+}
+.student-form-area .end-form{
+	height: 675px;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	padding-bottom: 10px;
+}
+.whole{
+	overflow:scroll;
+	height: 700px;
+}
+
+.student-form-area .left-form table tr td{
+	border: none;
+	padding-bottom: 4px;
+	padding-top: 6px;
+	font-family: sans-serif;
+	letter-spacing: 0.2px;
+	font-size: 15px;
+	font-weight: 100;
+
+}
+.student-form-area .left-form table tr td input[type="text"], input[type="email"],input[type="date"], input[type="file"]{
+	border-radius: 0px;
+	width: 210px !important;
+	border: 0.1px solid #EEE;
+}
+.student-form-area .left-form table tr td select{
+	border-radius: 0px;
+	width: 210px !important;
+	border: 0.1px solid #EEE;
+}
+.student-form-area .right-form table tr td{
+	border: none;
+	padding-bottom: 13px;
+	padding-top: 7px;
+	font-family: sans-serif;
+	letter-spacing: 0.2px;
+	font-size: 15px;
+	font-weight: 100;
+}
+
+.student-form-area .right-form table tr td input[type="text"]{
+	border-radius: 0px;
+	width: 210px !important;
+	border: 0.1px solid #EEE;
+}
+
+.student-form-area .end-form table tr td{
+	border: none;
+	padding-bottom: 13px;
+	padding-top: 10px;
+	font-family: sans-serif;
+	letter-spacing: 0.2px;
+	font-size: 15px;
+	font-weight: 100;
+}
+.student-form-area .end-form table tr td input[type="text"], input[type="email"],input[type="date"], input[type="file"]{
+	border-radius: 0px;
+	max-width: 210px !important;
+	border: 0.1px solid #EEE;
+
+}
+.submit {
+	display: block;
+	float: right;
+
+}
+
+
+.student-form-area table tr td{
+	font-family: sans-serif;
+	border: none;
+}
+
+/*view students area start*/
+.title_1 h4{
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  background-color: #5F9DF7;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  font-family: initial;
+}
+.view-students h4{
+	font-family: initial;
+	font-size: 25px,
+	
+}
+.view-area{
+	height: auto;
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+.view-area{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.view-area h4{
+	font-family: sans-serif;
+	padding: 15px 20px 5px 20px;
+
+}
+.view-area table tr td{
+	border: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.view-area table tr td input[type="text"]{
+	font-weight: bold;
+}
+
+.view-area table tr td input[type="roll"]{
+	font-weight: bold;
+}
+.view-area table tr td select{
+	font-weight: bold;
+}
+.view-area table tr td input[type="submit"]{
+	padding: 7px 55px;
+	border:none;
+	background-color: royalblue;
+	color: white;
+	font-weight: bold;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+.data table thead tr th{
+	padding: 8px 10px;
+	background-color: #FF7000;
+	text-align: center;
+	color: white;
+	border: 0.01px solid #B2B2B2;
+}
+.data table tbody tr td{
+	text-align: center;
+	padding: 10px 13px;
+	border: 0.01px solid #B2B2B2;
+}
+.data table tbody tr td a{
+	margin-left: 10px;
+}
+.data table tbody tr td .edit{
+	background-color: #EB6440;
+	color: white;
+	border: none;
+	padding: 6px 10px;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.data table tbody tr td .view{
+	background-color: #2192FF;
+	color: #fff;
+	border: none;
+	padding: 6px 10px;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.data table tbody tr td .del{
+	background-color: crimson;
+	color: #FFE15D;
+	border: none;
+	padding: 6px 10px;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+
+
+/*view students area end*/

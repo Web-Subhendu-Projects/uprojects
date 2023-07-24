@@ -1,0 +1,209 @@
+.title{
+	display: block;
+	font-family: sans-serif;
+	float: right;
+}
+
+.title a{
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.staff-form-area h4{
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	background-color: #5F9DF7;
+	font-family: sans-serif;
+	color: white;
+	font-size: 25px;
+}
+.staff-form-area .left-form-1 h5{
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	background-color: #5F9DF7;
+	font-family:sans-serif;
+	font-size: 27px;
+	font-weight: bold;
+	color: white;
+}
+.staff-form-area .left-form-1{
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	background-color: white;
+	height: 700px;
+}
+
+.whole{
+	overflow:scroll;
+	height: 700px;
+}
+
+.staff-form-area .left-form-1 table tr td{
+	border: none;
+	padding-bottom: 5px;
+	padding-top: 10px;
+	font-family: initial;
+	letter-spacing: 0.2px;
+	font-size: 20px;
+	font-weight:100;
+	padding: 10px 50px 5px 90px;
+}
+
+.staff-form-area .left-form-1 table tr td input[type="text"], input[type="email"],input[type="date"], input[type="file"]{
+ 	border-radius: 0px;
+ 	width: 600px !important;
+	border: 0.1px solid #EEE;
+}
+
+.staff-form-area .left-form-1 table tr td select{
+	border-radius: 0px;
+ 	width: 600px !important;
+	border: 0.1px solid #EEE;
+}
+
+
+
+
+/*Personal Address Start Secund line*/
+
+.staff-form-area .address-form-1 h4{
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	background-color: #5F9DF7;
+	font-family:sans-serif;
+	font-size: 27px;
+	font-weight: bold;
+	color: white;
+}
+.staff-form-area .address-form-1{
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	background-color: white;
+	height: 600px;
+}
+
+.staff-form-area .address-form-1 table tr td{
+  	border: none;
+	padding-bottom: 5px;
+	padding-top: 10px;
+	font-family: initial;
+	letter-spacing: 0.2px;
+	font-size: 20px;
+	font-weight:100;
+	padding: 10px 70px 5px 90px;	
+}
+
+.staff-form-area .address-form-1 table tr td input[type = "text"]{
+	border-radius: 0px;
+ 	width: 600px !important;
+	border: 0.1px solid #EEE;
+}
+
+.staff-form-area .address-form-1 table tr td select{
+    border-radius: 0px;
+ 	width: 600px !important;
+	border: 0.1px solid #EEE; 	
+}
+
+
+/*Personal Address end Secund line*/
+
+
+/*qualification-degree-area*/
+
+.staff-form-area .qualification-degree h4{
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	background-color:  #5F9DF7;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+}
+
+.staff-form-area .qualification-degree{
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	background-color: white;
+	height:auto;
+}
+
+.staff-form-area .qualification-degree table thead tr th{
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	border-right: 0.1px solid white;
+	padding: 7px 30px !important;
+	background-color:#FF7000;
+	color: white;
+	text-align: center;
+}
+
+.staff-form-area .qualification-degree table tbody tr td{
+	border: none;
+	padding-top: 5px;
+	padding-bottom: 8px;
+}
+
+.staff-form-area .qualification-degree table tbody tr td input[type= "text"]; input[type= "numbr"]{
+
+}
+.staff-form-area .qualification-Experience table tbody tr td input{
+	float: right;
+}
+
+
+
+
+/*qualification-degree-area end*/
+
+
+
+/*qualification-Experience*/
+
+.staff-form-area .qualification-Experience h4{
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	background-color:  #5F9DF7;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+
+}
+
+
+.staff-form-area .qualification-Experience {
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	background-color: white;
+	height: auto;
+}
+
+.staff-form-area .qualification-Experience table thead tr th{
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	border-right: 0.1px solid white;
+	padding: 7px 5px !important;
+	background-color:#FF7000;
+	color: white;
+	text-align: center;
+}
+
+.staff-form-area .qualification-Experience table tbody tr td{
+	border: none;
+	padding-top: 5px;
+	padding-bottom: 8px;
+}
+
+.staff-form-area .qualification-Experience table tbody tr td input[type= "text"]; input[type= "numbr"]{
+
+}
+
+.staff-form-area .qualification-Experience table tr td input{
+	padding-right: 30px;
+	float: right;
+}
+
+
+.staff-form-area .qualification-Experience .submit table tr td input {
+	display: none;
+	float: right;
+	text-decoration: none;
+/*	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;*/
+	background-color:white;
+	color: white;
+	padding: 5px 15px;
+	font-family: sans-serif;
+}
+
+
+
+

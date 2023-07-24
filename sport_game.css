@@ -1,0 +1,73 @@
+
+.title9 h1{
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  height: 50px;
+  background: -webkit-linear-gradient(left, #5F9DF7, #FC2947);
+  color: white;
+  border-radius: 50px;
+  width: 100%;
+  font-family: initial;
+ }
+
+
+
+.registration-form{
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  height: auto;
+  background-color: white;
+  text-align:center;
+  border-radius: 2px;
+}
+
+
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.form-group {
+  margin-top: 15px;
+  width: 1000px;
+  padding: 0px 0px 0px 50px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  font-family: initial;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #2CD3E1;
+}
+
+.image-container h2{
+  color: #00FFCA;
+}
+
+.sport-details h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: initial;
+  color: #00FFCA;
+}

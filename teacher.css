@@ -1,0 +1,325 @@
+.title{
+	display: block;
+	float: right;
+	font-family: sans-serif;
+}
+
+.title a{
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.teacher-form-area .left-form h4{
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	background-color: #FF7000;
+	font-family: sans-serif;
+	color: white;
+	padding: 6px;
+}
+
+.teacher-form-area .right-form h4{
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	background-color: #FF7000;
+	font-family: sans-serif;
+	color: white;
+	padding: 6px;
+}
+.teacher-form-area h4{
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	background-color: #5F9DF7;
+	font-family: sans-serif;
+	color: white;
+}
+
+.teacher-form-area .left-form{
+	height: auto;
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	padding-bottom: 10px;
+}
+
+.teacher-form-area .right-form{
+	height: 688px;
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	padding-bottom: 10px;
+}
+
+.teacher-form-area .end-form{
+	height: 623px;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+	padding-bottom: 10px;
+}
+
+.whole{
+	overflow:scroll;
+	height: 700px;
+}
+
+.teacher-form-area .left-form table tr td{
+	border: none;
+	padding-bottom: 4px;
+	padding-top: 6px;
+	font-family: sans-serif;
+	letter-spacing: 0.3px;
+	font-size: 15px;
+	font-weight: 100;
+}
+
+.teacher-form-area .left-form table tr td input[type="text"], input[type="email"],input[type="date"], input[type="file"]{
+	border-radius: 0px;
+	width: 400px !important;
+	border: 0.1px solid white;
+}
+
+.teacher-form-area .left-form table tr td select{
+	border-radius: 0px;
+	width: 400px !important;
+	border: 0.1px solid #EEE;
+}
+.teacher-form-area .right-form table tr td{
+	border: none;
+	padding-bottom: 13px;
+	padding-top: 7px;
+	font-family: sans-serif;
+	letter-spacing: 0.2px;
+	font-size: 15px;
+	font-weight: 100;
+}
+
+.teacher-form-area .right-form table tr td input[type="text"]{
+	border-radius: 0px;
+	width: 400px !important;
+	border: 0.1px solid #EEE;
+}
+
+/*.teacher-form-area .end-form table tr td{
+	border: none;
+	padding-bottom: 13px;
+	padding-top: 10px;
+	font-family: sans-serif;
+	letter-spacing: 0.2px;
+	font-size: 15px;
+	font-weight: 100;
+}*/
+ .teacher-form-area .left-form table tr td input[type="text"], input[type="email"],input[type="date"], input[type="file"]{
+	border-radius: 0px;
+	width: 400px !important;
+	border: 0.1px solid #EEE;
+} 
+ .row .submit {
+	display: block;
+	float: right;
+
+}
+.teacher-form-area table tr td{
+	font-family: sans-serif;
+	border: none;
+}
+
+
+
+
+.teacher-form-area .qualification{
+	height:auto;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	padding-bottom: 10px;
+}
+.teacher-form-area .qualification h4{
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	background-color: #5F9DF7;
+	font-family: sans-serif;
+	color: white;
+}
+.teacher-form-area .qualification table thead tr th{
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	border-right: 0.1px solid white;
+	padding: 7px 30px;
+	background-color:#FF7000;
+	color: white;
+	text-align: center;
+}
+.teacher-form-area .qualification table tbody tr td{
+	border: none;
+	padding-top: 5px;
+	padding-bottom: 8px;
+}
+
+.teacher-form-area .qualification table tbody tr td input[type="text"]{
+
+}
+.teacher-form-area .qualification .add-more{
+	padding-right: 30px;
+}
+.teacher-form-area .qualification .add-more a{
+	display: block;
+	float: right;
+	text-decoration: none;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	background-color: #009EFF;
+	color: white;
+	padding: 5px 15px;
+	font-family: sans-serif;
+}
+
+#more{
+	display: none;
+}
+.teacher-form-area .qualification-degree  h4{
+	font-family:  sans-serif;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.teacher-form-area .qualification-degree table thead tr th{
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	border-right: 0.1px solid white;
+	padding: 7px 10px;
+	background-color:#FF7000;
+	color: white;
+	text-align: center;
+}
+
+.teacher-form-area .qualification-degree table  tbody tr td{
+	height: auto;
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	background-color: white;
+
+}
+.teacher-form-area .qualification-degree table tbody tr td{
+	border: none;
+	padding-top: 5px;
+	padding-bottom: 8px;
+}
+
+.teacher-form-area .left-form{
+	height: auto;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+	padding-bottom: 10px;
+}
+.teacher-form-area .right-form{
+	height: 690px;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+	padding-bottom: 10px;
+}
+.teacher-form-area .end-form{
+	height: 623px;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+	padding-bottom: 10px;
+}
+
+.teacher-form-area .left-form table tr td input[type="text"], input[type="email"],input[type="date"], input[type="file"]{
+	border-radius: 0px;
+	width: 400px!important;
+	border: 0.1px solid #EEE;
+}
+.teacher-form-area .left-form table tr td select{
+	border-radius: 0px;
+	width: 400px !important;
+	border: 0.1px solid #EEE;
+}
+
+
+
+/*view teacher area start*/
+
+
+.title_2 h4{
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  background-color: #5F9DF7;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  font-family: sans-serif;
+}
+.view-area-top_1 h4{
+	font-family: sans-serif;
+	font-size: 25px;
+}
+
+.view-area{
+	height: auto;
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+.view-area{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.view-area h4{
+	font-family: sans-serif;
+	padding: 15px 20px 5px 20px;
+}
+
+.view-area table tr td{
+	border: none;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+.view-area table tr td input[type="text"]{
+	font-weight: bold;
+}
+
+.view-area table tr td input[type="Id Number"]{
+	font-weight: bold;
+}
+.view-area table tr td select{
+	font-weight: bold;
+}
+.view-area table tr td input[type="submit"]{
+	padding: 7px 60px;
+	float: right;
+	border:none;
+	background-color: royalblue;
+	color: white;
+	font-weight: bold;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+.row_data table thead tr th{
+	padding: -0px 1px -0px 5px;
+	background-color: #FF7000;
+	text-align: center;
+	color: white;
+	border: 0.01px solid #B2B2B2;
+}
+
+.row_data table tbody tr td{
+	text-align: center;
+	padding: 4px 6px;
+	border: 0.01px solid #B2B2B2;
+}
+.row_data table tbody tr td a{
+	margin-left: 10px;
+}
+.row_data table tbody tr td .edit{
+	background-color: #EB6440;
+	color: white;
+	border: none;
+	padding: 6px 10px;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.row_data table tbody tr td .view{
+	background-color: #2192FF;
+	color: #fff;
+	border: none;
+	padding: 6px 10px;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.row_data table tbody tr td .del{
+	background-color: crimson;
+	color: #FFE15D;
+	border: none;
+	padding: 6px 12px;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+
+
+
+/*view teacher area end*/

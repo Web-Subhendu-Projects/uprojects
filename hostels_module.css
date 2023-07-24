@@ -1,0 +1,77 @@
+body{
+  margin: 0px;
+  padding: 0ppx;
+}
+.hostel-module {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.hostel-module img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.hostel-details {
+  flex-grow: 1;
+}
+
+#hostel-details h2 {
+  font-size: 22px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: initial;
+}
+
+.hostel-details form {
+  display: flex;
+  flex-direction: column;
+}
+
+.hostel-details label {
+  margin-bottom: 5px;
+}
+
+.hostel-details input[type="submit"] {
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+
+#booking-form input[type="text"],
+#booking-form input[type="email"],
+#booking-form input[type="date"] {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#booking-form input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  font-family: initial;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+#booking-form input[type="submit"]:hover {
+  background-color: #070A52;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-container img {
+  width: 250px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+

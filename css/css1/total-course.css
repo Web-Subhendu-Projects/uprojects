@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container.row{
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.btn {
+  border: none;
+  color: white;
+  margin: 10px 0px 0px -7px;
+  font-family: initial;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container .btn{
+    text-decoration: none;
+}
+
+
+
+
+
+
+

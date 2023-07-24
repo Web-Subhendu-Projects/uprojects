@@ -1,0 +1,39 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse:collapse;
+  margin-top: -10px;
+}
+
+tr{
+   border-bottom: 1px solid #ddd;
+
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+ 
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+
+#payMoney, #permanentDetails {
+  margin-top: 10px;
+}
+
+#payMoney input, #payMoney button, #permanentDetails button {
+  margin-right: 10px;
+}
+
